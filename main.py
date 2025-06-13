@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/', methods=['GET'])
 def post():
     try:
-        return "<p>Hello, World! Hi, TCB RUN!</p>"
+        return "<p>Hello, World! Hi, TCB RUN! Hi Today!</p>"
     except Exception as e:
         print("[E] request except", e)
 
